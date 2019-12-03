@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+<item
+    android:id="@+id/toolbal_search"
+    android:icon="@drawable/ss"
+    android:title="扫一扫"
+    app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/toolbar_notification"
+        android:title="添加联系人"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/add_user_25"/>
+
+</menu>

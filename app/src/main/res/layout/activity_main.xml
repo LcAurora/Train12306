@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/user_male4_50" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="70dp">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/administrator_25"
+                android:layout_marginRight="20dp"/>
+
+            <EditText
+                android:id="@+id/adm"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:text="" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="70dp">
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/lock_25"
+                android:layout_marginRight="20dp"/>
+
+            <EditText
+                android:id="@+id/pow"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:text="" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp">
+
+        <CheckBox
+            android:id="@+id/chb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="记住密码"
+            android:textSize="20dp"
+            android:layout_marginRight="130dp" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="忘记密码" />
+
+    </LinearLayout>
+
+    <Button
+
+        android:id="@+id/longdingbutton"
+        android:layout_width="700px"
+        android:layout_height="wrap_content"
+        android:background="#2196F3"
+        android:text="@string/longding"
+        android:textColor="#ddd"
+        android:textSize="30dp"
+        android:layout_marginTop="50dp"/>
+    <Button
+        android:id="@+id/registerbutton"
+        android:layout_width="700px"
+        android:layout_height="wrap_content"
+        android:text="注册"
+        android:textColor="#ddd"
+        android:textSize="30dp"
+        android:background="#2196F3"
+        android:layout_marginTop="20dp"/>
+
+
+
+</LinearLayout>

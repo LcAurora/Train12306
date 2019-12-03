@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/fragment_viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </android.support.v4.view.ViewPager>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:orientation="horizontal">
+            <RadioButton
+                android:id="@+id/first"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:background="@android:color/transparent"
+                android:button="@null"
+                android:checked="true"
+                android:drawableTop="@drawable/main"
+                android:gravity="center"
+                android:text="首页"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+            <RadioButton
+                android:id="@+id/secend"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:background="@android:color/transparent"
+                android:button="@null"
+                android:checked="true"
+                android:drawableTop="@drawable/get"
+                android:gravity="center"
+                android:text="订单"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+            <RadioButton
+                android:id="@+id/inthend"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:background="@android:color/transparent"
+                android:button="@null"
+                android:checked="true"
+                android:drawableTop="@drawable/mine"
+                android:gravity="center"
+                android:text="我的"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+        </RadioGroup>
+    </LinearLayout>
+</RelativeLayout>
